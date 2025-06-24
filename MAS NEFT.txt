@@ -1,0 +1,25 @@
+// Estilo para el contenedor del idioma
+nav div a  // Selector específico para el enlace de idioma
+  display: inline-flex
+  align-items: center
+  gap: 0.5rem
+  padding: 0.5rem 1rem  // Ajusta según necesites
+  border: 2px solid white  // Borde blanco de 2px
+  border-radius: 4px  // Esquinas redondeadas
+  transition: all 0.3s ease  // Transición suave
+
+  &:hover
+    background: rgba(255, 255, 255, 0.1)  // Efecto hover sutil
+    border-color: rgba(255, 255, 255, 0.8)  // Borde más transparente al hover
+
+  // Estilos para las imágenes dentro del enlace
+  .language-img
+    height: 1rem  // Ajusta el tamaño de la bandera
+    width: auto
+    border: none  // Asegura que la imagen no tenga borde propio
+
+  .arrow
+    height: 0.6rem  // Tamaño de la flecha
+    width: auto
+
+<link type="image/png" sizes="16x16" rel="icon" href=".../icons8-netflix-ios7-16.png">
