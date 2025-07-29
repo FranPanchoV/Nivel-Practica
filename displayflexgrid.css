@@ -1,0 +1,13 @@
+.container{
+    background: lightblue;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container div{
+    background: lightgray;
+    border: 3px solid #09f;
+    border-radius: 6px;
+}
